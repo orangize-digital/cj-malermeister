@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://malermeister-jasek.de/sitemap.xml
+
+# Disallow admin or private paths if needed
+# Disallow: /admin/
