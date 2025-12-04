@@ -91,7 +91,7 @@ const faqs = [
   },
   {
     question: 'Wie weit ist Ihr Einsatzgebiet?',
-    answer: 'Unser Haupteinsatzgebiet ist Musterstadt und Umgebung (ca. 50 km Radius). Für größere Projekte kommen wir auch gerne weiter. Kontaktieren Sie uns einfach, und wir klären, ob wir Ihr Projekt übernehmen können.'
+    answer: 'Unser Haupteinsatzgebiet ist Bad Rothenfelde und Umgebung (ca. 50 km Radius). Für größere Projekte kommen wir auch gerne weiter. Kontaktieren Sie uns einfach, und wir klären, ob wir Ihr Projekt übernehmen können.'
   },
   {
     question: 'Gibt es eine Garantie auf Ihre Arbeiten?',

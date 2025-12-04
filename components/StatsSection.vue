@@ -42,10 +42,10 @@ withDefaults(defineProps<Props>(), {
   title: 'Die Mannschaft für Ihr Meisterwerk',
   subtitle: 'Gemeinsam stark',
   stats: () => [
-    { value: '20+', label: 'Jahre Erfahrung' },
-    { value: '15', label: 'Mitarbeiter' },
-    { value: '2', label: 'Standorte' },
-    { value: '100%', label: 'Qualität' }
+    { value: '2019', label: 'Meistertitel' },
+    { value: '3', label: 'Team-Mitglieder' },
+    { value: '100%', label: 'Kundenzufriedenheit' },
+    { value: '24h', label: 'Rückruf-Garantie' }
   ]
 })
 </script>

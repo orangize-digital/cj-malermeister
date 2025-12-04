@@ -10,7 +10,7 @@
             class="h-10 w-auto brightness-0 invert mb-4"
           />
           <p class="text-gray-300 text-sm">
-            Meisterqualität im Malerhandwerk seit über 20 Jahren.
+            Meisterqualität im Malerhandwerk seit 2019.
           </p>
         </div>
         <!-- Quick Links -->
@@ -30,11 +30,11 @@
           <ul class="space-y-3 text-gray-300 text-sm">
             <li class="flex items-start space-x-2">
               <MapPin class="w-5 h-5 flex-shrink-0 mt-0.5" />
-              <span>Musterstraße 123<br>12345 Musterstadt</span>
+              <span>Osterfeld 18<br>49214 Bad Rothenfelde</span>
             </li>
             <li class="flex items-center space-x-2">
               <Phone class="w-5 h-5 flex-shrink-0" />
-              <a href="tel:+491234567890" class="hover:text-white transition-colors">+49 123 456 7890</a>
+              <a href="tel:+4917622585100" class="hover:text-white transition-colors">0176 22585100</a>
             </li>
             <li class="flex items-center space-x-2">
               <Mail class="w-5 h-5 flex-shrink-0" />

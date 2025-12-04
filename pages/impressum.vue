@@ -19,8 +19,8 @@
             <h2 class="text-2xl font-bold text-brand-blue mb-4">Angaben gemäß § 5 TMG</h2>
             <div class="space-y-2 text-gray-700">
               <p class="font-semibold text-lg">Malermeister Christoph Jasek</p>
-              <p>Musterstraße 123</p>
-              <p>12345 Musterstadt</p>
+              <p>Osterfeld 18</p>
+              <p>49214 Bad Rothenfelde</p>
               <p>Deutschland</p>
             </div>
           </div>
@@ -29,7 +29,7 @@
           <div>
             <h3 class="text-xl font-semibold text-gray-900 mb-3">Kontakt</h3>
             <div class="space-y-2 text-gray-700">
-              <p><span class="font-medium">Telefon:</span> +49 123 456 7890</p>
+              <p><span class="font-medium">Telefon:</span> 0176 22585100</p>
               <p><span class="font-medium">E-Mail:</span> <a href="mailto:info@malermeister-jasek.de" class="text-brand-blue hover:underline">info@malermeister-jasek.de</a></p>
             </div>
           </div>
@@ -43,7 +43,7 @@
           <div>
             <h3 class="text-xl font-semibold text-gray-900 mb-3">Handelsregister</h3>
             <div class="space-y-2 text-gray-700">
-              <p><span class="font-medium">Registergericht:</span> Amtsgericht Musterstadt</p>
+              <p><span class="font-medium">Registergericht:</span> Amtsgericht Osnabrück</p>
               <p><span class="font-medium">Registernummer:</span> HRB 12345</p>
             </div>
           </div>
@@ -60,7 +60,7 @@
           <div>
             <h3 class="text-xl font-semibold text-gray-900 mb-3">Kammer</h3>
             <div class="space-y-2 text-gray-700">
-              <p><span class="font-medium">Zuständige Kammer:</span> Handwerkskammer Musterstadt</p>
+              <p><span class="font-medium">Zuständige Kammer:</span> Handwerkskammer Osnabrück-Emsland-Grafschaft Bentheim</p>
               <p><span class="font-medium">Verliehene Berufsbezeichnung:</span> Malermeister (verliehen in Deutschland)</p>
             </div>
           </div>

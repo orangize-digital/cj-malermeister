@@ -153,7 +153,7 @@
             <button @click="openQuote" class="bg-white text-brand-blue hover:bg-gray-100 font-semibold px-8 py-4 rounded-xl transition-all duration-200 shadow-lg">
               Kostenloses Angebot
             </button>
-            <a href="tel:+491234567890" class="border-2 border-white text-white hover:bg-white hover:text-brand-blue font-semibold px-8 py-4 rounded-xl transition-all duration-200 text-center">
+            <a href="tel:+4917622585100" class="border-2 border-white text-white hover:bg-white hover:text-brand-blue font-semibold px-8 py-4 rounded-xl transition-all duration-200 text-center">
               Jetzt anrufen
             </a>
           </div>
@@ -172,7 +172,7 @@ import StatsSection from '../components/StatsSection.vue'
 // SEO Meta Tags
 useSEO({
   title: 'Malermeister Christoph Jasek - Meisterqualität im Malerhandwerk',
-  description: 'Professionelle Malerarbeiten für Innen & Außen. Fassaden, Lackierungen, Tapezierarbeiten vom Meisterbetrieb. 20+ Jahre Erfahrung. Jetzt kostenloses Angebot anfordern!',
+  description: 'Professionelle Malerarbeiten für Innen & Außen. Fassaden, Lackierungen, Tapezierarbeiten vom Meisterbetrieb. Meisterqualität seit 2019. Jetzt kostenloses Angebot anfordern!',
   keywords: 'Malermeister, Maler, Innenanstrich, Außenanstrich, Fassade, Lackierung, Tapezieren, Meisterbetrieb',
   url: '/'
 })
@@ -181,10 +181,10 @@ const openQuoteModal = inject<() => void>('openQuoteModal')
 const openQuote = () => openQuoteModal?.()
 
 const stats = [
-  { value: '20+', label: 'Jahre Erfahrung' },
-  { value: '15', label: 'Mitarbeiter' },
-  { value: '2', label: 'Standorte' },
-  { value: '100%', label: 'Qualität' }
+  { value: '2019', label: 'Meistertitel' },
+  { value: '3', label: 'Team-Mitglieder' },
+  { value: '100%', label: 'Kundenzufriedenheit' },
+  { value: '24h', label: 'Rückruf-Garantie' }
 ]
 
 const services = [

@@ -38,11 +38,11 @@
               <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
                   <label class="block text-sm font-medium text-gray-700 mb-2">Telefon *</label>
-                  <input v-model="formData.phone" type="tel" required class="form-input" placeholder="+49 123 456 7890">
+                  <input v-model="formData.phone" type="tel" required class="form-input" placeholder="0176 22585100">
                 </div>
                 <div>
                   <label class="block text-sm font-medium text-gray-700 mb-2">Postleitzahl *</label>
-                  <input v-model="formData.postalCode" type="text" required class="form-input" placeholder="12345">
+                  <input v-model="formData.postalCode" type="text" required class="form-input" placeholder="49214">
                 </div>
               </div>
             </div>

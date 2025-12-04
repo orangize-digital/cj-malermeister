@@ -19,8 +19,8 @@
               <Phone class="w-8 h-8 text-brand-blue" />
             </div>
             <h3 class="text-xl font-semibold text-gray-900 mb-2">Telefon</h3>
-            <a href="tel:+491234567890" class="text-brand-blue hover:underline text-lg font-medium">
-              +49 123 456 7890
+            <a href="tel:+4917622585100" class="text-brand-blue hover:underline text-lg font-medium">
+              0176 22585100
             </a>
             <p class="text-sm text-gray-600 mt-2">Mo-Fr: 07:00 - 18:00 Uhr</p>
           </div>
@@ -41,7 +41,7 @@
               <MessageCircle class="w-8 h-8 text-brand-blue" />
             </div>
             <h3 class="text-xl font-semibold text-gray-900 mb-2">WhatsApp</h3>
-            <a href="https://wa.me/491234567890" target="_blank" rel="noopener noreferrer" class="text-brand-blue hover:underline text-lg font-medium">
+            <a href="https://wa.me/4917622585100" target="_blank" rel="noopener noreferrer" class="text-brand-blue hover:underline text-lg font-medium">
               Nachricht senden
             </a>
             <p class="text-sm text-gray-600 mt-2">Schnelle Antwort</p>
@@ -98,8 +98,8 @@
                   <MapPin class="w-6 h-6 text-brand-blue flex-shrink-0 mt-1" />
                   <div>
                     <p class="font-medium text-gray-900">Malermeister Christoph Jasek</p>
-                    <p class="text-gray-600">Musterstraße 123</p>
-                    <p class="text-gray-600">12345 Musterstadt</p>
+                    <p class="text-gray-600">Osterfeld 18</p>
+                    <p class="text-gray-600">49214 Bad Rothenfelde</p>
                   </div>
                 </div>
                 <div class="flex items-start space-x-3">
@@ -138,13 +138,13 @@
                   <div class="bg-white/90 backdrop-blur-sm px-6 py-3 rounded-lg shadow-lg">
                     <p class="text-sm text-gray-700 flex items-center space-x-2">
                       <MapPin class="w-4 h-4 text-brand-blue" />
-                      <span>Musterstraße 123, 12345 Musterstadt</span>
+                      <span>Osterfeld 18, 49214 Bad Rothenfelde</span>
                     </p>
                   </div>
                 </div>
               </div>
-              <a 
-                href="https://maps.google.com/?q=Musterstraße+123+12345+Musterstadt"
+              <a
+                href="https://maps.google.com/?q=Osterfeld+18+49214+Bad+Rothenfelde"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="mt-4 inline-flex items-center space-x-2 text-brand-blue hover:underline"

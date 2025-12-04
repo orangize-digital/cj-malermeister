@@ -160,7 +160,7 @@ const projects = [
     id: 1,
     title: 'Moderne Wohnraumgestaltung',
     category: 'innenanstrich',
-    location: 'Musterstadt, Einfamilienhaus',
+    location: 'Bad Rothenfelde, Einfamilienhaus',
     description: 'Komplette Neugestaltung eines Wohnzimmers mit hochwertigen Wandfarben in warmen Grautönen. Inklusive Deckenanstrich und Fußleisten.',
     image: '/images/hero.jpg'
   },
@@ -168,7 +168,7 @@ const projects = [
     id: 2,
     title: 'Fassadensanierung Mehrfamilienhaus',
     category: 'fassade',
-    location: 'Beispielstadt, Mehrfamilienhaus',
+    location: 'Dissen, Mehrfamilienhaus',
     description: 'Vollständige Fassadensanierung mit Rissreparatur, Grundierung und wetterbeständigem Anstrich. Fläche: ca. 450 m².',
     image: '/images/hero.jpg'
   },
@@ -176,7 +176,7 @@ const projects = [
     id: 3,
     title: 'Büroräume in frischem Weiß',
     category: 'innenanstrich',
-    location: 'Musterstadt, Bürogebäude',
+    location: 'Osnabrück, Bürogebäude',
     description: 'Professioneller Anstrich von Büroräumen mit emissionsarmen Farben für ein gesundes Arbeitsklima. 8 Räume, ca. 200 m².',
     image: '/images/hero.jpg'
   },
@@ -184,7 +184,7 @@ const projects = [
     id: 4,
     title: 'Türen & Zargen Lackierung',
     category: 'lackierung',
-    location: 'Beispielort, Einfamilienhaus',
+    location: 'Hilter, Einfamilienhaus',
     description: 'Hochwertige Lackierung von 12 Innentüren und Zargen in mattem Weiß. Perfekte Oberfläche ohne Pinselspuren.',
     image: '/images/hero.jpg'
   },
@@ -192,7 +192,7 @@ const projects = [
     id: 5,
     title: 'Altbau-Fassade restauriert',
     category: 'fassade',
-    location: 'Altstadt, Denkmalgeschütztes Gebäude',
+    location: 'Bad Iburg, Denkmalgeschütztes Gebäude',
     description: 'Behutsame Restaurierung einer historischen Fassade unter Berücksichtigung des Denkmalschutzes. Originalfarbtöne wiederhergestellt.',
     image: '/images/hero.jpg'
   },
@@ -200,7 +200,7 @@ const projects = [
     id: 6,
     title: 'Designtapete im Schlafzimmer',
     category: 'tapezieren',
-    location: 'Musterstadt, Privatwohnung',
+    location: 'Georgsmarienhütte, Privatwohnung',
     description: 'Verlegung einer hochwertigen Designtapete mit floralen Mustern. Präzise Musteranpassung für ein perfektes Gesamtbild.',
     image: '/images/hero.jpg'
   },
@@ -208,7 +208,7 @@ const projects = [
     id: 7,
     title: 'Kinderzimmer in bunten Farben',
     category: 'innenanstrich',
-    location: 'Beispielstadt, Einfamilienhaus',
+    location: 'Glandorf, Einfamilienhaus',
     description: 'Fröhliche Farbgestaltung eines Kinderzimmers mit schadstofffreien Farben. Inklusive kreativer Akzentwand.',
     image: '/images/hero.jpg'
   },
@@ -216,7 +216,7 @@ const projects = [
     id: 8,
     title: 'Schimmelentfernung Badezimmer',
     category: 'schimmel',
-    location: 'Musterort, Wohnung',
+    location: 'Bad Laer, Wohnung',
     description: 'Professionelle Schimmelsanierung im Badezimmer mit Anti-Schimmel-Beschichtung und vorbeugenden Maßnahmen.',
     image: '/images/hero.jpg'
   },
@@ -224,7 +224,7 @@ const projects = [
     id: 9,
     title: 'Glattspachtel Wohnzimmer',
     category: 'spachtel',
-    location: 'Beispielstadt, Altbauwohnung',
+    location: 'Bad Rothenfelde, Altbauwohnung',
     description: 'Perfekt gespachtelte Wände für eine glatte Oberfläche. Vorbereitung für hochwertigen Anstrich in Altbauwohnung.',
     image: '/images/hero.jpg'
   },
@@ -232,7 +232,7 @@ const projects = [
     id: 10,
     title: 'Gewerbefassade Neubau',
     category: 'fassade',
-    location: 'Gewerbegebiet, Bürogebäude',
+    location: 'Osnabrück, Bürogebäude',
     description: 'Erstanstrich der Fassade eines Neubaus im Gewerbegebiet. Moderne Farbgestaltung in Grau- und Weißtönen.',
     image: '/images/hero.jpg'
   },
@@ -240,7 +240,7 @@ const projects = [
     id: 11,
     title: 'Treppenhaus Renovierung',
     category: 'innenanstrich',
-    location: 'Musterstadt, Mehrfamilienhaus',
+    location: 'Dissen, Mehrfamilienhaus',
     description: 'Komplette Renovierung eines Treppenhauses über 4 Etagen. Helle, freundliche Farbgestaltung für mehr Licht.',
     image: '/images/hero.jpg'
   },

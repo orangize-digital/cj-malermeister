@@ -3,7 +3,7 @@
   <div class="hidden lg:block fixed right-6 top-1/2 -translate-y-1/2 z-40">
     <div class="flex flex-col space-y-3">
       <a
-        href="tel:+491234567890"
+        href="tel:+4917622585100"
         class="floating-action-btn group"
         title="Anrufen"
       >
@@ -19,7 +19,7 @@
         <span class="tooltip">E-Mail</span>
       </a>
       <a
-        href="https://wa.me/491234567890"
+        href="https://wa.me/4917622585100"
         target="_blank"
         rel="noopener noreferrer"
         class="floating-action-btn group"
@@ -35,7 +35,7 @@
   <div class="lg:hidden fixed bottom-0 left-0 right-0 z-40 bg-white border-t shadow-lg">
     <div class="grid grid-cols-3 gap-2 p-3">
       <a
-        href="tel:+491234567890"
+        href="tel:+4917622585100"
         class="mobile-action-btn"
       >
         <Phone class="w-5 h-5" />
@@ -49,7 +49,7 @@
         <span class="text-xs mt-1">E-Mail</span>
       </a>
       <a
-        href="https://wa.me/491234567890"
+        href="https://wa.me/4917622585100"
         target="_blank"
         rel="noopener noreferrer"
         class="mobile-action-btn"
