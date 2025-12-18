@@ -2,13 +2,17 @@
   <div class="home">
     <!-- Hero Section -->
     <section class="relative h-[80vh] md:h-[85vh] flex items-center">
-      <!-- Background Image with Overlay -->
+      <!-- Background Video with Overlay -->
       <div class="absolute inset-0">
-        <img 
-          src="/images/hero.jpg"
-          alt="Malermeister bei der Arbeit"
+        <video
+          autoplay
+          muted
+          loop
+          playsinline
           class="w-full h-full object-cover"
-        />
+        >
+          <source src="/images/hero/hero-compressed.mp4" type="video/mp4" />
+        </video>
         <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/70 to-transparent"></div>
       </div>
 

@@ -16,6 +16,11 @@ export default defineNuxtConfig({
       title: 'Malermeister Christoph Jasek',
       meta: [
         { name: 'description', content: 'Meisterqualität im Malerhandwerk - Innen- & Außenanstriche, Fassaden, Lackierungen' }
+      ],
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
+        { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' }
       ]
     }
   },

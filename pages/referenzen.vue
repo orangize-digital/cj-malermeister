@@ -158,99 +158,75 @@ const categories = [
 const projects = [
   {
     id: 1,
-    title: 'Moderne Wohnraumgestaltung',
+    title: 'Treppenhaus Modern',
     category: 'innenanstrich',
     location: 'Bad Rothenfelde, Einfamilienhaus',
-    description: 'Komplette Neugestaltung eines Wohnzimmers mit hochwertigen Wandfarben in warmen Grautönen. Inklusive Deckenanstrich und Fußleisten.',
-    image: '/images/hero.jpg'
+    description: 'Modernes Treppenhaus mit sauber gestrichenen Wänden und hochwertiger Fliesenverlegung. Klare Linien und helle Farben.',
+    image: '/images/work/image00011.jpeg'
   },
   {
     id: 2,
-    title: 'Fassadensanierung Mehrfamilienhaus',
+    title: 'Fassadenanstrich Einfamilienhaus',
     category: 'fassade',
-    location: 'Dissen, Mehrfamilienhaus',
-    description: 'Vollständige Fassadensanierung mit Rissreparatur, Grundierung und wetterbeständigem Anstrich. Fläche: ca. 450 m².',
-    image: '/images/hero.jpg'
+    location: 'Dissen, Einfamilienhaus',
+    description: 'Professioneller Fassadenanstrich mit wetterbeständiger Farbe. Saubere Kanten und gleichmäßige Oberfläche für langanhaltenden Schutz.',
+    image: '/images/work/image00014.jpeg'
   },
   {
     id: 3,
-    title: 'Büroräume in frischem Weiß',
+    title: 'Küche mit Akzentwand',
     category: 'innenanstrich',
-    location: 'Osnabrück, Bürogebäude',
-    description: 'Professioneller Anstrich von Büroräumen mit emissionsarmen Farben für ein gesundes Arbeitsklima. 8 Räume, ca. 200 m².',
-    image: '/images/hero.jpg'
+    location: 'Bad Iburg, Privatwohnung',
+    description: 'Moderne Küchengestaltung mit weißen Wänden und elegantem Holzboden. Saubere Übergänge zu Einbaugeräten.',
+    image: '/images/work/image00017.jpeg'
   },
   {
     id: 4,
-    title: 'Türen & Zargen Lackierung',
-    category: 'lackierung',
-    location: 'Hilter, Einfamilienhaus',
-    description: 'Hochwertige Lackierung von 12 Innentüren und Zargen in mattem Weiß. Perfekte Oberfläche ohne Pinselspuren.',
-    image: '/images/hero.jpg'
+    title: 'Badezimmer Wandgestaltung',
+    category: 'innenanstrich',
+    location: 'Georgsmarienhütte, Privatwohnung',
+    description: 'Feuchtraumgeeignete Wandgestaltung im Badezimmer. Kombination aus gestrichenen Flächen und Holzverkleidung.',
+    image: '/images/work/image00018.jpeg'
   },
   {
     id: 5,
-    title: 'Altbau-Fassade restauriert',
-    category: 'fassade',
-    location: 'Bad Iburg, Denkmalgeschütztes Gebäude',
-    description: 'Behutsame Restaurierung einer historischen Fassade unter Berücksichtigung des Denkmalschutzes. Originalfarbtöne wiederhergestellt.',
-    image: '/images/hero.jpg'
+    title: 'Neubau Innenausbau',
+    category: 'spachtel',
+    location: 'Glandorf, Einfamilienhaus',
+    description: 'Kompletter Innenausbau eines Neubaus mit Spachtel- und Malerarbeiten. Vorbereitung für Bodenverlegung.',
+    image: '/images/work/image00059.jpeg'
   },
   {
     id: 6,
-    title: 'Designtapete im Schlafzimmer',
-    category: 'tapezieren',
-    location: 'Georgsmarienhütte, Privatwohnung',
-    description: 'Verlegung einer hochwertigen Designtapete mit floralen Mustern. Präzise Musteranpassung für ein perfektes Gesamtbild.',
-    image: '/images/hero.jpg'
+    title: 'Rohbau Vorbereitung',
+    category: 'spachtel',
+    location: 'Bad Laer, Neubau',
+    description: 'Professionelle Vorbereitung eines Rohbaus für den Innenausbau. Spachtelarbeiten und Grundierung.',
+    image: '/images/work/image00060.jpeg'
   },
   {
     id: 7,
-    title: 'Kinderzimmer in bunten Farben',
-    category: 'innenanstrich',
-    location: 'Glandorf, Einfamilienhaus',
-    description: 'Fröhliche Farbgestaltung eines Kinderzimmers mit schadstofffreien Farben. Inklusive kreativer Akzentwand.',
-    image: '/images/hero.jpg'
+    title: 'Wände gespachtelt & gestrichen',
+    category: 'spachtel',
+    location: 'Bad Rothenfelde, Neubau',
+    description: 'Perfekt gespachtelte und gestrichene Wände in einem Neubau. Glatte Oberflächen für ein modernes Ambiente.',
+    image: '/images/work/image00061.jpeg'
   },
   {
     id: 8,
-    title: 'Schimmelentfernung Badezimmer',
-    category: 'schimmel',
-    location: 'Bad Laer, Wohnung',
-    description: 'Professionelle Schimmelsanierung im Badezimmer mit Anti-Schimmel-Beschichtung und vorbeugenden Maßnahmen.',
-    image: '/images/hero.jpg'
-  },
-  {
-    id: 9,
-    title: 'Glattspachtel Wohnzimmer',
-    category: 'spachtel',
-    location: 'Bad Rothenfelde, Altbauwohnung',
-    description: 'Perfekt gespachtelte Wände für eine glatte Oberfläche. Vorbereitung für hochwertigen Anstrich in Altbauwohnung.',
-    image: '/images/hero.jpg'
+    title: 'Wohnzimmer mit Fensterfront',
+    category: 'innenanstrich',
+    location: 'Osnabrück, Neubau',
+    description: 'Großzügiges Wohnzimmer mit bodentiefen Fenstern. Wände in hellem Weiß für maximale Lichtreflexion.',
+    image: '/images/work/image00062.jpeg'
   },
   {
     id: 10,
-    title: 'Gewerbefassade Neubau',
-    category: 'fassade',
-    location: 'Osnabrück, Bürogebäude',
-    description: 'Erstanstrich der Fassade eines Neubaus im Gewerbegebiet. Moderne Farbgestaltung in Grau- und Weißtönen.',
-    image: '/images/hero.jpg'
-  },
-  {
-    id: 11,
-    title: 'Treppenhaus Renovierung',
-    category: 'innenanstrich',
-    location: 'Dissen, Mehrfamilienhaus',
-    description: 'Komplette Renovierung eines Treppenhauses über 4 Etagen. Helle, freundliche Farbgestaltung für mehr Licht.',
-    image: '/images/hero.jpg'
-  },
-  {
-    id: 12,
-    title: 'Heizkörper Lackierung',
-    category: 'lackierung',
-    location: 'Beispielort, Privathaus',
-    description: 'Professionelle Lackierung von 15 Heizkörpern in Weiß. Hitzebeständiger Speziallack für langanhaltende Schönheit.',
-    image: '/images/hero.jpg'
+    title: 'Gewerbe Spachtelarbeiten',
+    category: 'spachtel',
+    location: 'Bad Rothenfelde, Gewerbe',
+    description: 'Umfangreiche Spachtelarbeiten in einem Gewerbeobjekt. Vorbereitung für nachfolgende Malerarbeiten.',
+    image: '/images/work/image00067.jpeg'
   }
 ]
 

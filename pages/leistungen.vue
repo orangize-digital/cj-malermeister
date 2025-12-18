@@ -45,8 +45,8 @@
             <button @click="openQuote" class="btn-primary">Angebot anfordern</button>
           </div>
           <div class="relative h-[400px] rounded-2xl overflow-hidden shadow-2xl">
-            <img 
-              src=""
+            <img
+              src="/images/work/image00070.jpeg"
               alt="Innenanstrich Beispiel"
               class="w-full h-full object-cover"
             />
@@ -59,8 +59,8 @@
       <div class="section-container">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div class="order-2 lg:order-1 relative h-[400px] rounded-2xl overflow-hidden shadow-2xl">
-            <img 
-              src=""
+            <img
+              src="/images/work/image00014.jpeg"
               alt="Fassadenarbeiten Beispiel"
               class="w-full h-full object-cover"
             />
@@ -133,8 +133,8 @@
             <button @click="openQuote" class="btn-primary">Angebot anfordern</button>
           </div>
           <div class="relative h-[400px] rounded-2xl overflow-hidden shadow-2xl">
-            <img 
-              src=""
+            <img
+              src="/images/work/Lackierarbeiten.jpeg"
               alt="Lackierarbeiten Beispiel"
               class="w-full h-full object-cover"
             />
@@ -147,8 +147,8 @@
       <div class="section-container">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div class="order-2 lg:order-1 relative h-[400px] rounded-2xl overflow-hidden shadow-2xl">
-            <img 
-              src=""
+            <img
+              src="/images/work/image00017.jpeg"
               alt="Tapezierarbeiten Beispiel"
               class="w-full h-full object-cover"
             />
@@ -221,8 +221,8 @@
             <button @click="openQuote" class="btn-primary">Angebot anfordern</button>
           </div>
           <div class="relative h-[400px] rounded-2xl overflow-hidden shadow-2xl">
-            <img 
-              src=""
+            <img
+              src="/images/work/image00075.jpeg"
               alt="Schimmelbehandlung Beispiel"
               class="w-full h-full object-cover"
             />
@@ -235,8 +235,8 @@
       <div class="section-container">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div class="order-2 lg:order-1 relative h-[400px] rounded-2xl overflow-hidden shadow-2xl">
-            <img 
-              src=""
+            <img
+              src="/images/work/image00061.jpeg"
               alt="Spachtelarbeiten Beispiel"
               class="w-full h-full object-cover"
             />

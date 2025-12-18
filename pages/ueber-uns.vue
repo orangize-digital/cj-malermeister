@@ -33,9 +33,9 @@
             </p>
           </div>
           <div class="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl">
-            <img 
-              src=""
-              alt="Malermeister Christoph Jasek"
+            <img
+              src="/images/work/image00014.jpeg"
+              alt="Malerarbeiten von Malermeister Christoph Jasek"
               class="w-full h-full object-cover"
             />
           </div>
