@@ -6,7 +6,7 @@ export default defineEventHandler(async (event) => {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'X-Form-Key': 'pk_Nwcl5UAKdc8BU9kr3ZBxUA'
+        'X-Form-Key': 'pk_gQa85qAix0bpbG52z07Ovw'
       },
       body: JSON.stringify({
         to: ['naumchedev@gmail.com'],

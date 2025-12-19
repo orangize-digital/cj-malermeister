@@ -34,7 +34,7 @@
           </p>
 
           <!-- Badges -->
-          <div class="flex flex-wrap gap-4 mb-8">
+          <div class="flex flex-wrap gap-4 mb-4">
             <div class="badge">
               <CheckCircle2 class="w-5 h-5" />
               <span>Meisterbetrieb</span>
@@ -47,10 +47,11 @@
               <Sparkles class="w-5 h-5" />
               <span>Sauber-Garantie</span>
             </div>
-            <div class="badge">
-              <MapPin class="w-5 h-5" />
-              <span>Regional</span>
-            </div>
+          </div>
+          <!-- TÜV Badge -->
+          <div class="inline-flex items-center space-x-2 bg-brand-gold text-brand-blue-dark font-semibold rounded-full px-5 py-2.5 mb-8 shadow-lg">
+            <ShieldCheck class="w-5 h-5" />
+            <span>TÜV-geprüfter Schimmelgutachter</span>
           </div>
 
           <!-- CTAs -->
@@ -168,7 +169,7 @@
 </template>
 
 <script setup lang="ts">
-import { Award, CheckCircle2, Wind, Sparkles, MapPin, ChevronDown, Clock, Paintbrush, Home as HomeIcon, Building2, Brush, Wallpaper, Shield, Wrench, MessageSquare, ClipboardCheck, Hammer, CheckCircle } from 'lucide-vue-next'
+import { Award, CheckCircle2, Wind, Sparkles, ChevronDown, Clock, Paintbrush, Building2, Brush, Wallpaper, Shield, Wrench, MessageSquare, ClipboardCheck, Hammer, CheckCircle, ShieldCheck } from 'lucide-vue-next'
 import ServiceCard from '../components/ServiceCard.vue'
 import ProcessStep from '../components/ProcessStep.vue'
 import StatsSection from '../components/StatsSection.vue'

@@ -9,9 +9,13 @@
             alt="Malermeister Christoph Jasek Logo"
             class="h-10 w-auto brightness-0 invert mb-4"
           />
-          <p class="text-gray-300 text-sm">
+          <p class="text-gray-300 text-sm mb-3">
             Meisterqualität im Malerhandwerk seit 2019.
           </p>
+          <div class="inline-flex items-center space-x-2 bg-brand-gold text-brand-blue-dark font-semibold rounded-full px-3 py-1.5">
+            <ShieldCheck class="w-4 h-4" />
+            <span class="text-xs">TÜV-geprüfter Schimmelgutachter</span>
+          </div>
         </div>
         <!-- Quick Links -->
         <div>
@@ -78,5 +82,5 @@
 </template>
 
 <script setup>
-import { MapPin, Phone, Mail } from 'lucide-vue-next'
+import { MapPin, Phone, Mail, ShieldCheck } from 'lucide-vue-next'
 </script>

@@ -125,21 +125,21 @@
               </div>
             </div>
 
-            <!-- Map Placeholder -->
+            <!-- Anfahrt -->
             <div class="bg-white p-8 rounded-xl shadow-md">
               <h3 class="font-semibold text-gray-900 mb-4">Anfahrt</h3>
-              <div class="relative h-64 bg-gray-200 rounded-lg overflow-hidden">
-                <img 
-                  src=""
-                  alt="Karte Standort"
-                  class="w-full h-full object-cover"
-                />
-                <div class="absolute inset-0 flex items-center justify-center">
-                  <div class="bg-white/90 backdrop-blur-sm px-6 py-3 rounded-lg shadow-lg">
-                    <p class="text-sm text-gray-700 flex items-center space-x-2">
-                      <MapPin class="w-4 h-4 text-brand-blue" />
-                      <span>Osterfeld 18, 49214 Bad Rothenfelde</span>
-                    </p>
+              <p class="text-gray-600 mb-6">
+                Sie finden uns in Bad Rothenfelde, zentral im Osnabrücker Land.
+                Parkplätze sind direkt vor Ort verfügbar.
+              </p>
+              <div class="bg-brand-blue/5 border border-brand-blue/20 rounded-xl p-6 mb-6">
+                <div class="flex items-center space-x-4">
+                  <div class="w-12 h-12 bg-brand-blue rounded-full flex items-center justify-center flex-shrink-0">
+                    <MapPin class="w-6 h-6 text-white" />
+                  </div>
+                  <div>
+                    <p class="font-semibold text-gray-900">Osterfeld 18</p>
+                    <p class="text-gray-600">49214 Bad Rothenfelde</p>
                   </div>
                 </div>
               </div>
@@ -147,10 +147,10 @@
                 href="https://maps.google.com/?q=Osterfeld+18+49214+Bad+Rothenfelde"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="mt-4 inline-flex items-center space-x-2 text-brand-blue hover:underline"
+                class="w-full inline-flex items-center justify-center space-x-2 bg-brand-blue text-white hover:bg-brand-blue-dark font-medium px-6 py-3 rounded-xl transition-colors"
               >
-                <Navigation class="w-4 h-4" />
-                <span>In Google Maps öffnen</span>
+                <Navigation class="w-5 h-5" />
+                <span>Route in Google Maps</span>
               </a>
             </div>
           </div>
