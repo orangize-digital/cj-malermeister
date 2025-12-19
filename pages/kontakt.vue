@@ -172,6 +172,14 @@
         </div>
       </div>
     </section>
+
+    <!-- Success Modal -->
+    <SuccessModal
+      :is-open="showSuccessModal"
+      :title="modalTitle"
+      :message="modalMessage"
+      @close="showSuccessModal = false"
+    />
   </div>
 </template>
 
@@ -199,6 +207,9 @@ const contactForm = ref({
 })
 
 const isSubmitting = ref(false)
+const showSuccessModal = ref(false)
+const modalTitle = ref('')
+const modalMessage = ref('')
 
 const handleSubmit = async () => {
   isSubmitting.value = true
@@ -244,7 +255,10 @@ ${contactForm.value.message}
       throw new Error('Failed to send email')
     }
 
-    alert('Vielen Dank für Ihre Nachricht! Wir melden uns schnellstmöglich bei Ihnen.')
+    // Show success modal
+    modalTitle.value = 'Nachricht gesendet!'
+    modalMessage.value = 'Vielen Dank für Ihre Nachricht. Wir melden uns innerhalb von 24 Stunden bei Ihnen.'
+    showSuccessModal.value = true
 
     // Reset form
     contactForm.value = {
@@ -257,7 +271,10 @@ ${contactForm.value.message}
     }
   } catch (error) {
     console.error('Error submitting form:', error)
-    alert('Es gab einen Fehler beim Senden Ihrer Nachricht. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt.')
+    // Show error modal
+    modalTitle.value = 'Fehler beim Senden'
+    modalMessage.value = 'Es gab einen Fehler beim Senden Ihrer Nachricht. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt per Telefon.'
+    showSuccessModal.value = true
   } finally {
     isSubmitting.value = false
   }

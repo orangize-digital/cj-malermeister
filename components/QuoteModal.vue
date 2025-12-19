@@ -132,6 +132,14 @@
         </div>
       </div>
     </Transition>
+
+    <!-- Success Modal -->
+    <SuccessModal
+      :is-open="showSuccessModal"
+      :title="successModalTitle"
+      :message="successModalMessage"
+      @close="handleSuccessClose"
+    />
   </Teleport>
 </template>
 
@@ -142,6 +150,10 @@ const emit = defineEmits(['close'])
 
 const currentStep = ref(1)
 const isSubmitting = ref(false)
+const showSuccessModal = ref(false)
+const successModalTitle = ref('')
+const successModalMessage = ref('')
+const shouldCloseOnSuccess = ref(false)
 
 const formData = ref({
   name: '',
@@ -215,7 +227,11 @@ ${formData.value.message || 'Keine Nachricht angegeben'}
       throw new Error('Failed to send email')
     }
 
-    alert('Vielen Dank! Wir melden uns innerhalb von 24 Stunden bei Ihnen.')
+    // Show success modal
+    successModalTitle.value = 'Anfrage gesendet!'
+    successModalMessage.value = 'Vielen Dank für Ihre Anfrage. Wir melden uns innerhalb von 24 Stunden bei Ihnen.'
+    showSuccessModal.value = true
+    shouldCloseOnSuccess.value = true
 
     // Reset form
     formData.value = {
@@ -229,12 +245,22 @@ ${formData.value.message || 'Keine Nachricht angegeben'}
       gdprConsent: false
     }
     currentStep.value = 1
-    emit('close')
   } catch (error) {
     console.error('Error submitting form:', error)
-    alert('Es gab einen Fehler beim Senden Ihrer Anfrage. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt.')
+    // Show error modal
+    successModalTitle.value = 'Fehler beim Senden'
+    successModalMessage.value = 'Es gab einen Fehler beim Senden Ihrer Anfrage. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt per Telefon.'
+    showSuccessModal.value = true
+    shouldCloseOnSuccess.value = false
   } finally {
     isSubmitting.value = false
+  }
+}
+
+const handleSuccessClose = () => {
+  showSuccessModal.value = false
+  if (shouldCloseOnSuccess.value) {
+    emit('close')
   }
 }
 </script>

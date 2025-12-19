@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <!-- Hero Section -->
-    <section class="relative h-[80vh] md:h-[85vh] flex items-center">
+    <section class="relative h-[85vh] md:h-[85vh] flex items-center">
       <!-- Background Video with Overlay -->
       <div class="absolute inset-0">
         <video
