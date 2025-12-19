@@ -9,7 +9,7 @@ export default defineEventHandler(async (event) => {
         'X-Form-Key': 'pk_Cszc5iV1cPV9hQynMWtN2w'
       },
       body: JSON.stringify({
-        to: ['naumchedev@gmail.com'],
+        to: ['info@malermeister-jasek.de'],
         subject: body.subject,
         html: body.html,
         text: body.text
