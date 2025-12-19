@@ -169,58 +169,6 @@
       </div>
     </section>
 
-    <!-- Team Section -->
-    <section class="py-20 bg-white">
-      <div class="section-container">
-        <div class="text-center mb-12">
-          <h2 class="font-display text-3xl md:text-4xl font-bold text-brand-blue mb-4">Unser Team</h2>
-          <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-            Ein kleines, eingespieltes Team mit hoher Fachkompetenz und persönlichem Engagement.
-          </p>
-        </div>
-
-        <div class="max-w-3xl mx-auto">
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
-            <div class="text-center">
-              <div class="relative w-40 h-40 mx-auto mb-4 rounded-full overflow-hidden shadow-lg bg-gray-200">
-                <img
-                  src=""
-                  alt="Christoph Jasek"
-                  class="w-full h-full object-cover"
-                />
-              </div>
-              <h3 class="text-xl font-semibold text-gray-900 mb-1">Christoph Jasek</h3>
-              <p class="text-brand-blue font-medium">Malermeister & Geschäftsführer</p>
-            </div>
-
-            <div class="text-center">
-              <div class="relative w-40 h-40 mx-auto mb-4 rounded-full overflow-hidden shadow-lg bg-gray-200">
-                <img
-                  src=""
-                  alt="Geselle"
-                  class="w-full h-full object-cover"
-                />
-              </div>
-              <h3 class="text-xl font-semibold text-gray-900 mb-1">Unser Geselle</h3>
-              <p class="text-brand-blue font-medium">Fachkraft</p>
-            </div>
-
-            <div class="text-center">
-              <div class="relative w-40 h-40 mx-auto mb-4 rounded-full overflow-hidden shadow-lg bg-gray-200">
-                <img
-                  src=""
-                  alt="Azubi"
-                  class="w-full h-full object-cover"
-                />
-              </div>
-              <h3 class="text-xl font-semibold text-gray-900 mb-1">Unser Azubi</h3>
-              <p class="text-brand-blue font-medium">2. Lehrjahr</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- Stats Section -->
     <section class="py-20 bg-brand-blue">
       <div class="section-container">

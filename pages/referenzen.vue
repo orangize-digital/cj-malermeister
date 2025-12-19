@@ -14,9 +14,9 @@
     <section class="py-12 bg-white border-b">
       <div class="section-container">
         <!-- Debug Info -->
-        <div class="text-center mb-4 text-sm text-gray-600">
+        <!-- <div class="text-center mb-4 text-sm text-gray-600">
           Active Filter: {{ activeFilter }} | Showing: {{ filteredProjects.length }} projects
-        </div>
+        </div> -->
         <div class="flex flex-wrap gap-3 justify-center">
           <button
             v-for="category in categories"

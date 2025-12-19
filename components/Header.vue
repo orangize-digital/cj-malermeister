@@ -17,7 +17,6 @@
           <NuxtLink to="/ueber-uns" class="nav-link">Über uns</NuxtLink>
           <NuxtLink to="/leistungen" class="nav-link">Leistungen</NuxtLink>
           <NuxtLink to="/referenzen" class="nav-link">Referenzen</NuxtLink>
-          <NuxtLink to="/faq" class="nav-link">FAQ</NuxtLink>
           <NuxtLink to="/kontakt" class="nav-link">Kontakt</NuxtLink>
         </nav>
 
@@ -42,7 +41,6 @@
           <NuxtLink to="/ueber-uns" class="mobile-nav-link" @click="mobileMenuOpen = false">Über uns</NuxtLink>
           <NuxtLink to="/leistungen" class="mobile-nav-link" @click="mobileMenuOpen = false">Leistungen</NuxtLink>
           <NuxtLink to="/referenzen" class="mobile-nav-link" @click="mobileMenuOpen = false">Referenzen</NuxtLink>
-          <NuxtLink to="/faq" class="mobile-nav-link" @click="mobileMenuOpen = false">FAQ</NuxtLink>
           <NuxtLink to="/kontakt" class="mobile-nav-link" @click="mobileMenuOpen = false">Kontakt</NuxtLink>
           <button @click="openQuote" class="btn-primary w-full mt-4">Angebot anfordern</button>
         </nav>
