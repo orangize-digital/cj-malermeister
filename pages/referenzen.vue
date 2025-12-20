@@ -136,7 +136,7 @@
 </template>
 
 <script setup>
-import { Paintbrush, Building2, Brush, Wallpaper, Shield, Wrench, LayoutGrid, Eye, X, ImageIcon } from 'lucide-vue-next'
+import { Paintbrush, Building2, Brush, Wallpaper, Shield, Wrench, LayoutGrid, Eye, X, ImageIcon, Layers, Thermometer, Square } from 'lucide-vue-next'
 
 const openQuoteModal = inject('openQuoteModal')
 const openQuote = () => openQuoteModal?.()
@@ -152,7 +152,10 @@ const categories = [
   { id: 'lackierung', label: 'Lackierung', icon: Brush },
   { id: 'tapezieren', label: 'Tapezieren', icon: Wallpaper },
   { id: 'schimmel', label: 'Schimmel', icon: Shield },
-  { id: 'spachtel', label: 'Spachtel', icon: Wrench }
+  { id: 'spachtel', label: 'Spachtel', icon: Wrench },
+  { id: 'trockenbau', label: 'Trockenbau', icon: Layers },
+  { id: 'waermedaemmung', label: 'Wärmedämmung', icon: Thermometer },
+  { id: 'bodenbelaege', label: 'Bodenbeläge', icon: Square }
 ]
 
 const projects = [
