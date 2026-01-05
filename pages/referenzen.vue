@@ -193,10 +193,10 @@ const projects = [
   },
   {
     id: 5,
-    title: 'Neubau Innenausbau',
-    category: 'spachtel',
+    title: 'Bodenbelag Verlegung',
+    category: 'bodenbelaege',
     location: 'Glandorf, Einfamilienhaus',
-    description: 'Kompletter Innenausbau eines Neubaus mit Spachtel- und Malerarbeiten. Vorbereitung für Bodenverlegung.',
+    description: 'Professionelle Verlegung von hochwertigem Bodenbelag in einem Neubau. Saubere Übergänge und exakte Verarbeitung.',
     image: '/images/work/image00059.jpeg'
   },
   {
@@ -225,10 +225,10 @@ const projects = [
   },
   {
     id: 10,
-    title: 'Gewerbe Spachtelarbeiten',
-    category: 'spachtel',
+    title: 'Trockenbau Gewerbe',
+    category: 'trockenbau',
     location: 'Bad Rothenfelde, Gewerbe',
-    description: 'Umfangreiche Spachtelarbeiten in einem Gewerbeobjekt. Vorbereitung für nachfolgende Malerarbeiten.',
+    description: 'Professionelle Trockenbauarbeiten in einem Gewerbeobjekt. Trennwände und Deckensysteme fachgerecht montiert.',
     image: '/images/work/image00067.jpeg'
   }
 ]
