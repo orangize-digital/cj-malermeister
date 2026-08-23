@@ -34,7 +34,7 @@
           <ul class="space-y-3 text-gray-300 text-sm">
             <li class="flex items-start space-x-2">
               <MapPin class="w-5 h-5 flex-shrink-0 mt-0.5" />
-              <span>Osterfeld 18<br>49214 Bad Rothenfelde</span>
+              <span>Westring 6<br>49201 Dissen am Teutoburger Wald</span>
             </li>
             <li class="flex items-center space-x-2">
               <Phone class="w-5 h-5 flex-shrink-0" />

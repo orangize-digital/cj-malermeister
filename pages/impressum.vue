@@ -19,8 +19,8 @@
             <h2 class="text-2xl font-bold text-brand-blue mb-4">Angaben gemäß § 5 TMG</h2>
             <div class="space-y-2 text-gray-700">
               <p class="font-semibold text-lg">Malermeister Christoph Jasek</p>
-              <p>Osterfeld 18</p>
-              <p>49214 Bad Rothenfelde</p>
+              <p>Westring 6</p>
+              <p>49201 Dissen am Teutoburger Wald</p>
               <p>Deutschland</p>
             </div>
           </div>

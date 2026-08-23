@@ -98,8 +98,8 @@
                   <MapPin class="w-6 h-6 text-brand-blue flex-shrink-0 mt-1" />
                   <div>
                     <p class="font-medium text-gray-900">Malermeister Christoph Jasek</p>
-                    <p class="text-gray-600">Osterfeld 18</p>
-                    <p class="text-gray-600">49214 Bad Rothenfelde</p>
+                    <p class="text-gray-600">Westring 6</p>
+                    <p class="text-gray-600">49201 Dissen am Teutoburger Wald</p>
                   </div>
                 </div>
                 <div class="flex items-start space-x-3">
@@ -129,7 +129,7 @@
             <div class="bg-white p-8 rounded-xl shadow-md">
               <h3 class="font-semibold text-gray-900 mb-4">Anfahrt</h3>
               <p class="text-gray-600 mb-6">
-                Sie finden uns in Bad Rothenfelde, zentral im Osnabrücker Land.
+                Sie finden uns in Dissen am Teutoburger Wald, zentral im Osnabrücker Land.
                 Parkplätze sind direkt vor Ort verfügbar.
               </p>
               <div class="bg-brand-blue/5 border border-brand-blue/20 rounded-xl p-6 mb-6">
@@ -138,13 +138,13 @@
                     <MapPin class="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <p class="font-semibold text-gray-900">Osterfeld 18</p>
-                    <p class="text-gray-600">49214 Bad Rothenfelde</p>
+                    <p class="font-semibold text-gray-900">Westring 6</p>
+                    <p class="text-gray-600">49201 Dissen am Teutoburger Wald</p>
                   </div>
                 </div>
               </div>
               <a
-                href="https://maps.google.com/?q=Osterfeld+18+49214+Bad+Rothenfelde"
+                href="https://maps.google.com/?q=Westring+6+49201+Dissen+am+Teutoburger+Wald"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="w-full inline-flex items-center justify-center space-x-2 bg-brand-blue text-white hover:bg-brand-blue-dark font-medium px-6 py-3 rounded-xl transition-colors"
