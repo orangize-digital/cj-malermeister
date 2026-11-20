@@ -117,6 +117,12 @@
               jeweiligen Autors bzw. Erstellers.
             </p>
           </div>
+
+          <div>
+            <p class="text-gray-700 leading-relaxed">
+              Webdesign: <a href="https://orangize.de" rel="nofollow" class="text-brand-blue hover:underline">Orangize Digital</a>
+            </p>
+          </div>
         </div>
       </div>
     </section>
